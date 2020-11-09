@@ -1,3 +1,4 @@
+   /* text */
 h1{
     color:#fff;
     font-size: 43px;
@@ -24,6 +25,12 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
+}
+#welv {
+    width:960px;
+    height:550px;
+    margin:auto;
+    overflow: hidden;
 }
 *, *:before, *:after {
     padding: 0;
