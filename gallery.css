@@ -76,7 +76,14 @@ a {
     height: 65vh;
     text-align: center;
 }
-@media (max-width: 767px) {
+img{
+    object-fit: cover;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    transform: translate(15%, -60%);
+}
+@media (max-width: 750px){
     /* menu */
     .menu {
         position: fixed;
@@ -172,5 +179,22 @@ a {
     .container {
         top: 60px;
         height: 92vh;
+    }
+    img{
+        object-fit: cover;
+        width: 250px;
+        height: 350px;
+        position: absolute;
+        transform: translate(10%, -80%);
+    }
+    .mip{
+        padding-top: 15%;
+        transform: translate(5.3%, 0);
+    }    
+    h2{
+        transform: translate(7%, 0);
+    }
+    p{
+        position: relative;
     }
 }
