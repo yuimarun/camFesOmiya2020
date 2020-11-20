@@ -1,32 +1,16 @@
 /* general */
-*,
-*:before,
-*:after {
+
+body{
   padding: 0;
-  margin: 0;
+  margin: 0;  
   box-sizing: border-box;
 }
-:root {
-  font-family: Verdana, "BIZ UDGothic", Meiryo, "UD Shin Go Regular", sans-serif;
-  font-size: 16px;
-  line-height: 1em;
-}
-/* box */
-div,
-header,
-main,
-footer,
-nav,
-aside,
-section,
-article,
-blockquote,
-figure {
-  position: relative;
-  overflow: hidden;
-}
-/* header */
 
+/* header */
+.nav{
+  padding:0;
+  margin: 0;
+}
 .container {
   display: flex;
   justify-content: space-between;
@@ -57,7 +41,7 @@ nav ul {
   display: flex;
   height: 100%;
 }
-nav li {
+.nav li {
   border: 1px solid #dde6ff;
   flex-grow: 1;
 }
@@ -71,7 +55,7 @@ nav a {
 }
 nav a:hover,
 nav a:focus {
-  filter: invert(0.8);
+  filter: invert(0.7);
 }
 nav ul li:nth-child(1) a {
   background-color: #dde6ff;
