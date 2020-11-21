@@ -118,6 +118,13 @@ h1 {
   width: 100%;
   height:100%;
 }
+.onl {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
 .textA {
   margin-top: 10px;
   text-align: center;
@@ -130,13 +137,6 @@ ol,ul {
 a {
   text-decoration: none;
   color: inherit;
-}
-.onl {
-  display: block;
-  position: relative;
-  text-align: center;
-  margin-top: 20px;
-  font-size: 20px;
 }
 .onl a{
   top: 500px;
