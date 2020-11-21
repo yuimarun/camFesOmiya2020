@@ -1,3 +1,4 @@
+/* general */
 *,
 *:before,
 *:after {
@@ -23,13 +24,6 @@ blockquote,
 figure {
   position: relative;
   overflow: hidden;
-}
-/* general */
-
-body{
-  padding: 0;
-  margin: 0;  
-  box-sizing: border-box;
 }
 
 /* header */
