@@ -135,11 +135,9 @@ a {
 }
 /* poster */
 .pos img {
-  object-fit: cover;
-  width: 430px;
   height: 570px;
   position: relative;
-  padding-top: 3%;
+  margin-top: 3%;
 }
 .mip {
   padding-top: 1%;
